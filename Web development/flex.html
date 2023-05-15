@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box </title>
+</head>
+<style>
+    .container {
+        height: 300px;
+        width: 100%;
+        border: 2px solid black;
+        /* to intialize */
+        display: flex;
+        /* flex properties for flex container */
+        /* flex-direction: row; */
+        /* flex-direction: column; */
+        /* flex-direction:  row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-wrap: wrap; by default it is no wrap */
+        flex-flow: row wrap;
+        /*  it defines the direction as well as wrap positions */
+        /* to put elements in center  horizontaly*/
+        /* justify-content: center; */
+        /* to put the  elements in center vertically  */
+        /* align-items: center; */
+        /* align-items:flex-end; */
+        /* align-items: flex-start; */
+        /* align-items:stretch; */
+
+
+    }
+
+    .item {
+
+        width: 200px;
+        height: 200px;
+        background-color: tomato;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 10px;
+        padding: 3px;
+    }
+    #item1{
+/* order is place where it will be  */
+/* order: 3;
+flex-grow: 1;  this will make item change more rapidly with the  increse in screen  size*/
+/* to control size */
+flex-basis: 300px;  /*  flex basis goes according to gicen direction of row and columm */
+/* short hand flex: grow shrink basis */
+/* flex: 2 2 300px; */
+align-self: center;
+    }
+    #item2{
+/* order: 1;
+flex-grow: 2;  */
+flex-basis: 300px;
+align-self: center;
+    }  
+    #item3{
+/* order: 1;
+          flex-grow: 3;  */
+          flex-basis: 300px;
+          align-self: center;
+    }
+</style>
+
+<body>
+    <h1>
+        this is a flex box
+    </h1>
+    <div class="container">
+        <div class="item" id="item1">first box</div>
+        <div class="item" id="item2">second box</div>
+        <div class="item" id="item3">third box</div>
+        <!-- <div class="item" id="item4">fourth box</div>
+        <div class="item" id="item5">fifth box</div>
+        <div class="item" id="item6">sixth box</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WECOME TO CRICSTAT</title>
+    <script src="js.js"></script>
+</head>
+<STYLE>
+    body{
+    background-image: url(WTC.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial ; 
+    background-attachment: scroll;
+    
+}
+    .navbar{ background-color: rgb(39, 121, 70);
+       
+    border-radius: 27px;
+    margin-left: 10pxs;
+
+    }
+    .navbar ul{border: 2px solid rgb(231, 227, 227)(58, 29, 29);
+        overflow: auto;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .navbar li{ float: left;
+    list-style: none;
+    margin:10px 8px 6px 7px;
+    }
+    .navbar  li a{ 
+        padding: 8px 8px 8px 8px;
+color: rgb(231, 227, 227);
+    }
+    .navbar  li a:hover{ 
+       /* background-color: rgb(167, 162, 157); */
+       color: rgb(115, 83, 233);
+    }
+    .SEARCH  { float: right;
+       
+        border-radius: 5px;
+        padding: 8px 8px 8px 8px;
+    }
+    .navbar input{
+        border-style: dotted;
+        border: 4px solid black;
+        border-radius: 5px;margin-right: 40px;
+        padding-left: 5px; 
+        
+
+    }
+    .button{
+    border: black;
+    background-color: blanchedalmond;
+    margin-top: 500px;
+}
+#btn1{
+    float: left;
+    float: inline-end;
+}
+#btn2{
+    float: right;
+}
+#btn1:hover,#btn2:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+#btn1:hover a ,#btn2:hover a {
+    background-color: black;
+    color: blanchedalmond;
+}
+#myVideo {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 61px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</STYLE>
+<body>
+<nav class="navbar">
+  <header>  <ul>
+        <li> <a href="https://www.cricbuzz.com/cricket-match/live-scores" target="_self">LIVE SCORE </a></li>
+        <li> <a href="https://www.cricbuzz.com/cricket-schedule/upcoming-series/international" target="_self">SCHEDULE</a></li>
+        <li> <a href="https://www.cricbuzz.com/cricket-videos" target="_self">VIDEOS</a></li>
+        <li> <a href="https://www.cricbuzz.com/cricket-scorecard-archives" target="_self">ARCHIEVE</a></li>
+        <li> <a href="https://www.cricbuzz.com/cricket-news" target="_self">NEWS</a></li>
+     <div class="SEARCH">
+         <input type="search" name="SEARCH" id="SEARCH" placeholder="search here ">
+     </div>
+         </ul>
+         <video autoplay muted loop id="myVideo">
+            <source src="Rohit Sharma - Top Run-Scorer ICC Cricket World Cup 2019 Best Bits.mp4" type="video/mp4">
+          </video>
+          
+          <!-- Optional: some overlay text to describe the video -->
+         
+    </header>
+        </nav>
+        
+        <footer>
+        <div class="button">
+            <button id="btn1"><a href="wsq3.html">BACK</a></button>
+            <button id="btn2"><a href="wsq4.html">NEXT</a></button>
+        </div></footer>
+</body>
+</html>

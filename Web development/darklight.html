@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark theme</title>
+    <script  type="javascript" src="js.js">JS </script>
+</head>
+   
+    <style>
+        .container{
+            position: relative;
+        }
+        .sun, .moon{
+font-size: 10rem;
+width: fit-content;
+height: fit-content;
+        }
+        .moon{
+            position:absolute;
+            inset: 0;
+        }
+        .moon-logo{
+            opacity: 0;
+            transform: translateY(20%) rotateZ(50deg);
+        }
+        .sun-logo{
+            opacity: 1;
+            transform: translateY(0%) rotateZ(0deg);
+        }
+        .animate-sun{
+            opacity: 0;
+            transform: translateY(0%) rotateZ(100deg);
+        }
+        .animate-moon{
+            opacity: 1;
+            transform: translateY(0%) rotateZ(100deg);
+            color: aliceblue;
+        }
+        .moon-logo{
+            opacity: 0;
+            transform: translateY(20%) rotateZ(50deg);
+            transition: all 1s ease-out;
+        }
+        .sun-logo{
+            opacity: 1;
+            transform: translateY(0%) rotateZ(0eg);
+            transition: all 1s ease-out;
+        }
+        .dark{
+            background-color: black;
+        }
+        
+    </style>
+<body>
+  <div class="container">
+      <div class="sun sun-logo">
+        <i class="fas fa-sun"></i>
+      </div>
+      <div class="moon moon-logo">
+        <i class="fas fa-moon"></i>
+      </div>
+  </div>  
+</body>
+</html>

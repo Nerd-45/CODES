@@ -1,0 +1,88 @@
+body {
+    margin: 70px;
+    background: linear-gradient(to right, rgb(163, 116, 177) , rgb(231, 71, 151));
+   }
+.para1 {
+    margin: 50px 200px;
+    border-style: dotted;
+    padding: auto;
+    background-color: #657488;
+    border-width: 8px;
+    text-align: center;
+    border-color: #000000;
+    }
+    .para2 {
+    margin: 50px 200px;
+    margin-top: 70px;
+    border: solid ;
+    padding: 30px;
+    background-color: #657488;
+    border-style: solid;
+    border-width: thick;
+    border-color:#000000;
+    border-width: 8px;
+    }
+    .para3 {
+    
+    margin: 50px 200px;
+    border-style: double dashed;
+    border-width: 8px;
+    padding: auto;
+    background-color:#657488;
+    border-color:#000000;
+    text-align: center;
+    }
+    
+    #p1 {
+    text-align: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Aria
+    
+    l, sans-serif;
+    font-style: oblique;
+    color: #070808;
+    font-size: 15px;
+    }
+    #p2 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: #000000;
+    font-size: 15px;
+    }
+    #p3 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: #010808;
+    font-size: 15px;
+    }
+    
+    h1 {
+    text-align: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Aria
+    
+    l, sans-serif;
+    font-style: oblique;
+    color: #155263;
+    }
+    .button{
+        border: black;
+        background-color: blanchedalmond;
+    }
+    
+    #btn1{
+        float: left;
+    }
+    #btn2{
+        float: right;
+    }
+    #btn1:hover,#btn2:hover{
+        background-color: black;
+        color: blanchedalmond;
+    }
+    #btn1:hover a ,#btn2:hover a {
+        background-color: black;
+        color: blanchedalmond;
+    }

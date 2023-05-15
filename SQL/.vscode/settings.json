@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "askForPassword": true,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Abhishek ",
+            "group": "yadav",
+            "socketPath": "C:\\Users\\RAHUL\\Desktop\\DESKTOP\\SQL\\1.sql",
+            "database": "ABHISHEK YADAV",
+            "username": "abhishek "
+        }
+    ]
+}
